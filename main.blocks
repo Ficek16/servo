@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="]g9%z^s:j*1h?)7Fquj{">servo k</variable></variables><block type="device_button_event" id="s:4fDkkm=G6:em7x#$jq" x="0" y="0"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="mVDSjQ[E{7F~KC,[}:Sz"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="servoservosetangle" id="_xS[mJni+=dQ!q7ZeMxz"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="?c^miE3*dKxgC08Y{^EA"><field name="angle">180</field></shadow></value><next><block type="servoservosetangle" id="kZlbv0MX^3LbnEw/hbGW"><field name="servo">servos.P1</field><value name="degrees"><shadow type="protractorPicker" id="Ngm?mO+i2haJWJ?lsQ0f"><field name="angle">0</field></shadow></value><next><block type="device_pause" id="HAZV~(PVNBvq9#%Dc]d="><value name="pause"><shadow type="timePicker" id="K2x4=U-#0N]:F4=1@=7B"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="P3Re+=Qh^si|+X@-NNWh"></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id=".H6b8qWZ=FTuca)bIy:o" x="456" y="94"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="U{/44Mz}`$qQzd66FD3?"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="servoservosetangle" id=")m*hH*+zQ)i_c4B/Q:5Y"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="^wLN]4O?qeOz[i5|iJ[c"><field name="angle">90</field></shadow></value><next><block type="servoservosetangle" id="[`H@9(e4IONB-nfJB-~["><field name="servo">servos.P1</field><value name="degrees"><shadow type="protractorPicker" id="m[E)t=Bt2z-?o=w9f*lR"><field name="angle">90</field></shadow></value><next><block type="device_pause" id="le*HTd8?.Y|{px(8(12#"><value name="pause"><shadow type="timePicker" id="TvS]eoV3L13}mJnf;%G;"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="@,K)BJye7%AlITC?8Bxo"></block></next></block></next></block></next></block></next></block></statement></block></xml>
